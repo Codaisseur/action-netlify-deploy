@@ -13,6 +13,11 @@ inputs:
     required: true
     default: ''
 
+  NETLIFY_SITE_PROD_ID:
+    description: 'Your Netlify production site id'
+    required: false
+    default: ''
+
   NETLIFY_DEPLOY_MESSAGE:
     description: 'A deploy message'
     required: false
